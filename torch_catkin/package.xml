@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>torch_catkin</name>
+  <version>1.4.0</version>
+  <description>A package to vendor PyTorch's C++ library in a catkin workspace</description>
+  <maintainer email="wolfgang@robots.ox.ac.uk">Wolfgang Merkt</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>zip</build_depend>
+</package>

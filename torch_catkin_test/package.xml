@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>torch_catkin_test</name>
+  <version>0.0.0</version>
+  <description>The torch_catkin_test package</description>
+  <maintainer email="wolfgang@robots.ox.ac.uk">Wolfgang Merkt</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>torch_catkin</build_depend>
+  <build_export_depend>torch_catkin</build_export_depend>
+  <exec_depend>torch_catkin</exec_depend>
+</package>

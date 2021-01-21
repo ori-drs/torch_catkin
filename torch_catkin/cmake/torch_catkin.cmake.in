@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0.2)
+
+# Append current path so that normal find_package work again
+#list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}")
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_CURRENT_LIST_DIR}/..")
+
+find_package(Torch REQUIRED)
+
+#if(@INSTALLSPACE@)
+#  set(torch_catkin_INCLUDE_DIRS "${torch_catkin_INCLUDE_DIRS}/@PROJECT_NAME@")
+#endif()
